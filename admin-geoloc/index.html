@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TP AJAX</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <h1>Découpage Administratif</h1>
+
+    <!-- Sélection des régions -->
+    <label for="regions">Liste des régions:</label>
+    <select id="regions">
+        <option value="">Sélectionner une région</option>
+    </select>
+
+    <!-- Sélection des départements -->
+    <label for="departements">Liste des départements:</label>
+    <select id="departements" disabled>
+        <option value="">Sélectionner un département</option>
+    </select>
+
+    <!-- Bouton pour afficher les communes -->
+    <button id="showCommunes" disabled>Afficher les communes</button>
+
+    <!-- Liste des communes -->
+    <ul id="communesList"></ul>
+
+    <script src="main.js"></script>
+</body>
+</html>
